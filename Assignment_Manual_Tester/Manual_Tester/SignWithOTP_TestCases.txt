@@ -1,0 +1,14 @@
+Test Cases for Sign with OTP:
+1. Verify that the 'Sign in with OTP' option is available on the login page.
+2. Verify that the user can request an OTP.
+3. Verify that a valid OTP is sent to the user's registered email/phone.
+4. Verify that the user can enter the OTP and successfully log in.
+5. Verify error messages for invalid or expired OTP.
+
+Validation for each field:
+- Email/Phone: Valid email/phone format, must be registered.
+- OTP: Numeric, usually 6 digits.
+
+Bugs:
+- OTP not received in registered email/phone.
+- Expired OTP does not show appropriate error message.

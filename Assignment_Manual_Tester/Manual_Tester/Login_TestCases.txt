@@ -1,0 +1,14 @@
+Test Cases for Login:
+1. Verify that the login page loads successfully.
+2. Verify that the user can enter their username and password.
+3. Verify that the 'Login' button is enabled when both fields are filled.
+4. Verify that the user can successfully log in with valid credentials.
+5. Verify error messages for invalid username or password.
+
+Validation for each field:
+- Username: Alphanumeric.
+- Password: Matches the registered password.
+
+Bugs:
+- Valid credentials not allowing login.
+- 'Login' button enabled with only one field filled.

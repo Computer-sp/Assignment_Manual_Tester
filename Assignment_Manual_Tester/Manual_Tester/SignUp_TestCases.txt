@@ -1,0 +1,16 @@
+Test Cases for Sign Up:
+1. Verify that the sign-up page loads successfully.
+2. Verify that all required fields are present (e.g., username, email, password).
+3. Verify that the user can enter data into each field.
+4. Verify that the 'Sign Up' button is disabled until all required fields are filled.
+5. Verify that a user can successfully sign up with valid details.
+6. Verify error messages for invalid inputs (e.g., invalid email format, weak password).
+
+Validation for each field:
+- Username: Alphanumeric, min 3 characters.
+- Email: Valid email format.
+- Password: Minimum 8 characters, includes numbers and letters.
+
+Bugs:
+- Error message for weak password not displayed.
+- 'Sign Up' button remains disabled even after all fields are filled.
